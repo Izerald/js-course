@@ -42,3 +42,33 @@ const myFunction  = function (){
 console.log(typeof myFunction);
 
 /// https://262.ecma-international.org/5.1/#sec-11.4.3 
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//there are two type of memorty Stack and Heape memory
+//Stack memory is used in piemitive data type , you get a copy of the data to work upon
+//Heap memery is used in Non-primitive data type, you will get reference of data to make changes on orginal values
+
+
+let myYotubename = "ravislab"
+
+let anotherName = myYotubename
+anotherName  = "GyanBazee"
+
+console.log(myYotubename);
+console.log(anotherName);
+
+
+let userOne ={
+    email : "rt@gmail.com",
+    upi : "rtan@Rkb"
+}
+
+let userTwo = userOne
+
+userTwo.email ="rt@hotmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
