@@ -55,7 +55,7 @@ let stringNumber = String(someNumber)
 console.log(someNumber);
 console.log(typeof (someNumber));   //Typeof object help in showing the valriable type 
 
-
+//Comparision of Datatype - Session #8
 
 
 
