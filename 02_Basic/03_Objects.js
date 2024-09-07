@@ -38,7 +38,7 @@ const JsuserA = {
 //how to overwirte the values in object
 
 JsuserA.email = "ravitand@yho.com"
-Object.freeze(JsuserA)   //object freez is used to stop the overwite of any data. as stated below.
+//Object.freeze(JsuserA)   //object freez is used to stop the overwite of any data. as stated below.
 JsuserA.email = "ravitan@gks.com"
 //console.log(JsuserA);
 
